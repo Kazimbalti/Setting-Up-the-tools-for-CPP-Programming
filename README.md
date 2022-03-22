@@ -44,4 +44,16 @@ To download the GCC and Clang llvm on your machine go to this website [WinLibs](
 Then go to the downloaded folder and extract it and place it somewhere on your system, where you find mingw64 folder.
 Go to the mingw64/bin folder and copy it i.e., your_directory/ming64/bin and type env from the start menu "Edit the system environment variable" will popup and edit the environment variable according to below image:
 ![github](https://user-images.githubusercontent.com/32608321/159451849-4398ae0d-0b5c-46d2-954e-85a13164240c.PNG)
+Now to test the environment_variables/compiler is working open the command prompt and type "g++ --version" as shown in figure below:
 
+![image](https://user-images.githubusercontent.com/32608321/159466927-5f60bf09-d6ec-4ae8-b62f-17fae5ea0ae5.png)
+
+Now the C++ compiler is ready for MingW project.
+
+## 3. Installing VS Code on Windows
+Download visual studio code from this link [Visual Studio Code](https://code.visualstudio.com/) and install it accordingly.
+Open the Visual Studio code and first install the package from the extensions. So first install the C/C++ Intellisence, debuggin, and code browsing package as shown in figure.
+
+![image](https://user-images.githubusercontent.com/32608321/159468907-f37cb53b-27e9-4226-bc88-aa52e3aae8dc.png)
+
+## 4. Configuring Visual Studio Code for C++ on Windows
