@@ -57,3 +57,32 @@ Open the Visual Studio code and first install the package from the extensions. S
 ![image](https://user-images.githubusercontent.com/32608321/159468907-f37cb53b-27e9-4226-bc88-aa52e3aae8dc.png)
 
 ## 4. Configuring Visual Studio Code for C++ on Windows
+Here we will show how to connect the IDEs (Visual Studio Code) to the compiler Mingw (g++).
+Open up the Visual Studio code and make a folder i.e., First_Program and make a new file inside this First_Program folder.
+>>First_Program
+    >> main.cpp
+write a simple program inside the main.cpp file and click on the terminal bar, from where you open/click on the configuration tasks, as shown in figure
+
+![image](https://user-images.githubusercontent.com/32608321/159682546-ae320ae4-7cfc-4ff3-ad0b-8983bf0f4638.png)
+
+In configuration task menu go to the g++.exe and open it, as shown in figure
+
+![image](https://user-images.githubusercontent.com/32608321/159683686-c844559e-be66-4098-8451-ea0de8695b6f.png)
+
+it will show a tasks.json file inside the .vscode file. as shown below
+![image](https://user-images.githubusercontent.com/32608321/159683832-000d81a0-0c44-44f0-854b-4cb3a9a5870b.png)
+
+Modify the tasks.json file for C++ 20 version by adding "-std=c++20" in args after -g on line 10, as shown in figure
+
+![image](https://user-images.githubusercontent.com/32608321/159685374-fd9594d5-cd03-4e16-887b-5d044464a463.png)
+
+Finally go to the Terminal/new_terminal and then go to Terminal/Run_Task, it will bind you program to build with GCC 11.2.0, as shown below
+
+![image](https://user-images.githubusercontent.com/32608321/159686301-86d0a678-12a3-4310-8323-9ac17c4c1a68.png)
+
+Finally you have build your program.
+you can run ./main.exe binary directly from the terminal.
+
+Thats all for configuring visual studio code with the compiler in windows.
+
+
