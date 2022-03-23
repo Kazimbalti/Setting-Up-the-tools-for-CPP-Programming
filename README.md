@@ -83,8 +83,7 @@ Finally go to the Terminal/new_terminal and then go to Terminal/Run_Task, it wil
 Finally you have build your program.
 you can run ./main.exe binary directly from the terminal.
 
-![image](https://user-images.githubusercontent.com/32608321/159687624-84aaf903-1607-4fe9-95fe-c8ed8bfb7191.png)
-
+![image](https://user-images.githubusercontent.com/32608321/159687742-83530449-defa-4708-a4d7-62b0d41bcc82.png)
 
 Thats all for configuring visual studio code with the compiler in windows.
 
